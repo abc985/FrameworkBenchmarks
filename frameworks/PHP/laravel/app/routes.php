@@ -53,7 +53,7 @@ Route::get('/updates', function()
     	$queries = 1;
     }
     else if ($queries > 500) {
-        $queries = 500;
+        $queries = 400;
     }
 
     $worlds = array();
